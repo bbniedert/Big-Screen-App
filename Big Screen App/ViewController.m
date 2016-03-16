@@ -33,6 +33,12 @@
 
 @implementation ViewController
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.standingsReuseIdentifier = @"standings";
@@ -84,6 +90,11 @@
     [cell setUpCell:rank team:teamName record:record cupDifferential:cupDifferential color:textColor];
     
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 58;
 }
 
 - (void)refreshStandings{
