@@ -43,7 +43,7 @@
     self.standingsTable.dataSource = self;
     self.standingsTable.delegate = self;
     [self.standingsTable setScrollEnabled:NO];
-    [self.standingsTable setBackgroundColor:[UIColor grayColor]];
+    [self.standingsTable setBackgroundColor:[UIColor whiteColor]];
     self.standingsTable.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     [NSTimer scheduledTimerWithTimeInterval:30
@@ -71,8 +71,8 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     BOOL isEven = indexPath.row % 2 == 0;
-    UIColor *color = (isEven) ? [UIColor lightGrayColor] : [UIColor grayColor];
-    UIColor *textColor = (isEven ? [UIColor blackColor] : [UIColor whiteColor]);
+    UIColor *color = (isEven) ? [UIColor whiteColor] : [UIColor lightGrayColor];
+    UIColor *textColor = (isEven ? [UIColor blackColor] : [UIColor blackColor]);
     StandingsTeam *team = [self.standings objectAtIndex:indexPath.row];
     NSString *rank = [NSString stringWithFormat:@"%lu", (long)indexPath.row + 1];
     NSString *teamName = team.teamName;
