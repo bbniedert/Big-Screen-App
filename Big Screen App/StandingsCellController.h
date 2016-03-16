@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *team;
 @property (weak, nonatomic) IBOutlet UILabel *record;
 @property (weak, nonatomic) IBOutlet UILabel *cupDifferential;
+@property (weak, nonatomic) IBOutlet UIImageView *teamLogo;
 
 - (void) setUpCell:(NSString *)rank team:(NSString *)team record:(NSString *)record cupDifferential:(NSString *)cupDifferential color:(UIColor *)color;
 

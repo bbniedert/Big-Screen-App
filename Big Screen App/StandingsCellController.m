@@ -20,6 +20,7 @@
     self.cupDifferential.text = cupDifferential;
     self.cupDifferential.textColor = color;
     self.team.adjustsFontSizeToFitWidth = YES;
+    self.teamLogo.image = [UIImage imageNamed:[team lowercaseString]];
     
 }
 @end
