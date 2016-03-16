@@ -41,14 +41,14 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LYp-gX-e7m">
-                    <rect key="frame" x="36" y="9" width="40" height="40"/>
+                    <rect key="frame" x="40" y="9" width="40" height="40"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="40" id="19x-wR-MYo"/>
                         <constraint firstAttribute="height" constant="40" id="2L7-Xl-TJh"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrQ-di-g2Y">
-                    <rect key="frame" x="85" y="9" width="52" height="41"/>
+                    <rect key="frame" x="89" y="9" width="52" height="41"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="41" id="Vq2-jq-nc6"/>
                     </constraints>
@@ -63,7 +63,7 @@
                 <constraint firstItem="reX-WG-Ot1" firstAttribute="leading" secondItem="wrQ-di-g2Y" secondAttribute="trailing" constant="27" id="8Ix-7c-p5D"/>
                 <constraint firstItem="34w-g9-iGc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="FNm-Op-gVB"/>
                 <constraint firstItem="8n3-sO-178" firstAttribute="trailing" secondItem="reX-WG-Ot1" secondAttribute="trailing" id="Geg-Hp-BQo"/>
-                <constraint firstItem="LYp-gX-e7m" firstAttribute="leading" secondItem="34w-g9-iGc" secondAttribute="trailing" constant="-4" id="LQx-Iq-hh7"/>
+                <constraint firstItem="LYp-gX-e7m" firstAttribute="leading" secondItem="34w-g9-iGc" secondAttribute="trailing" id="LQx-Iq-hh7"/>
                 <constraint firstItem="reX-WG-Ot1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="PVi-c3-j9L"/>
                 <constraint firstItem="LYp-gX-e7m" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QfW-qw-6pW"/>
                 <constraint firstAttribute="trailing" secondItem="reX-WG-Ot1" secondAttribute="trailing" constant="8" id="cYx-yz-lOd"/>
