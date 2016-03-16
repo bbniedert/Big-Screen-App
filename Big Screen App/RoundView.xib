@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoundViewController">
+            <connections>
+                <outlet property="m1cd" destination="Oka-WR-N1a" id="OuV-sd-Tvi"/>
+                <outlet property="m2cd" destination="4Sg-Z1-ZTI" id="vcU-gC-2cD"/>
+                <outlet property="m3cd" destination="zYA-T9-2cj" id="xCN-dB-bFU"/>
+                <outlet property="m4cd" destination="fVb-cw-gCg" id="iTG-d7-N69"/>
+                <outlet property="m5cd" destination="a2U-O0-KOA" id="VaF-fL-5FQ"/>
+                <outlet property="m6cd" destination="cXo-0l-RP8" id="20B-3U-hIW"/>
+                <outlet property="roundLabel" destination="2ip-CV-ZUS" id="Qmv-SY-2e9"/>
+                <outlet property="t1m1" destination="scw-Zb-B8P" id="ym6-8O-xgD"/>
+                <outlet property="t1m2" destination="Tdp-f0-4Xw" id="Xit-1Y-QHv"/>
+                <outlet property="t1m3" destination="Ukq-9k-cPr" id="GRN-gn-l7F"/>
+                <outlet property="t1m4" destination="Y5x-Ih-nRw" id="1IQ-0K-3SE"/>
+                <outlet property="t1m5" destination="tif-cN-Ncv" id="kpN-Sg-SAS"/>
+                <outlet property="t1m6" destination="NHj-X5-6Ab" id="oLX-Xa-yKa"/>
+                <outlet property="t2m1" destination="vML-UQ-6QM" id="FEt-Cs-GlE"/>
+                <outlet property="t2m2" destination="zPg-w5-HpE" id="LIy-OM-b83"/>
+                <outlet property="t2m3" destination="8X0-8u-bgb" id="IYT-xF-LG0"/>
+                <outlet property="t2m4" destination="CPK-Pn-Hy1" id="m7J-NO-yRY"/>
+                <outlet property="t2m5" destination="eoQ-2j-Hlj" id="KT6-dJ-hzg"/>
+                <outlet property="t2m6" destination="I1J-3V-6ZK" id="ocE-On-k2O"/>
+                <outlet property="view" destination="iN0-l3-epB" id="eXH-6H-AJh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="165"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round #" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ip-CV-ZUS">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="th3-Tt-nOd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oka-WR-N1a">
+                    <rect key="frame" x="111" y="29" width="18" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="DmO-2A-Opd"/>
+                        <constraint firstAttribute="height" constant="21" id="j1P-D9-NSX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sg-Z1-ZTI">
+                    <rect key="frame" x="111" y="51" width="18" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="9ww-s1-uTf"/>
+                        <constraint firstAttribute="width" constant="18" id="dXs-cN-o0x"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="s1Q-Nf-YQq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="s1Q-Nf-YQq"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYA-T9-2cj">
+                    <rect key="frame" x="111" y="73" width="18" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="5wn-Jm-HiM"/>
+                        <constraint firstAttribute="width" constant="18" id="BKH-AP-RFl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVb-cw-gCg">
+                    <rect key="frame" x="111" y="95" width="18" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="8AG-ka-gOs"/>
+                        <constraint firstAttribute="width" constant="18" id="X9Z-Q5-tkG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2U-O0-KOA">
+                    <rect key="frame" x="111" y="117" width="18" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="oVk-Qr-LHi"/>
+                        <constraint firstAttribute="height" constant="21" id="zgz-wk-9Z6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXo-0l-RP8">
+                    <rect key="frame" x="111" y="139" width="18" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="0gp-IN-7bP"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="JSm-jR-rck"/>
+                        <constraint firstAttribute="height" constant="21" id="KvB-XE-1hF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="JSm-jR-rck"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tdp-f0-4Xw">
+                    <rect key="frame" x="8" y="50" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vML-UQ-6QM">
+                    <rect key="frame" x="152" y="29" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPg-w5-HpE">
+                    <rect key="frame" x="152" y="51" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8X0-8u-bgb">
+                    <rect key="frame" x="152" y="73" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPK-Pn-Hy1">
+                    <rect key="frame" x="152" y="95" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoQ-2j-Hlj">
+                    <rect key="frame" x="152" y="117" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1J-3V-6ZK">
+                    <rect key="frame" x="152" y="139" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scw-Zb-B8P">
+                    <rect key="frame" x="8" y="29" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ukq-9k-cPr">
+                    <rect key="frame" x="8" y="72" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5x-Ih-nRw">
+                    <rect key="frame" x="8" y="95" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tif-cN-Ncv">
+                    <rect key="frame" x="8" y="117" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-X5-6Ab">
+                    <rect key="frame" x="8" y="139" width="80" height="21"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zYA-T9-2cj" firstAttribute="top" secondItem="4Sg-Z1-ZTI" secondAttribute="bottom" constant="1" id="3Ns-uv-c3A"/>
+                <constraint firstItem="zYA-T9-2cj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3yn-pM-yrd"/>
+                <constraint firstItem="cXo-0l-RP8" firstAttribute="top" secondItem="a2U-O0-KOA" secondAttribute="bottom" constant="1" id="ARz-l7-XuY"/>
+                <constraint firstItem="Oka-WR-N1a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="FCK-sk-ajJ"/>
+                <constraint firstItem="2ip-CV-ZUS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FOK-cX-LgN"/>
+                <constraint firstItem="fVb-cw-gCg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="G0t-Fr-U26"/>
+                <constraint firstItem="cXo-0l-RP8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GVC-TV-Cde"/>
+                <constraint firstItem="Oka-WR-N1a" firstAttribute="top" secondItem="2ip-CV-ZUS" secondAttribute="bottom" constant="8" id="YBb-p9-RbF"/>
+                <constraint firstItem="4Sg-Z1-ZTI" firstAttribute="top" secondItem="Oka-WR-N1a" secondAttribute="bottom" constant="1" id="Yly-Hg-GuP"/>
+                <constraint firstItem="a2U-O0-KOA" firstAttribute="top" secondItem="fVb-cw-gCg" secondAttribute="bottom" constant="1" id="dEB-Ir-wuk"/>
+                <constraint firstItem="fVb-cw-gCg" firstAttribute="top" secondItem="zYA-T9-2cj" secondAttribute="bottom" constant="1" id="dkF-aO-qct"/>
+                <constraint firstItem="4Sg-Z1-ZTI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="iRS-SH-thw"/>
+                <constraint firstItem="a2U-O0-KOA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pMI-HJ-gwI"/>
+                <constraint firstAttribute="trailing" secondItem="2ip-CV-ZUS" secondAttribute="trailing" id="rct-P6-Vgn"/>
+                <constraint firstItem="2ip-CV-ZUS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uRc-91-SxQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="280" y="438.5"/>
+        </view>
+    </objects>
+</document>

@@ -15,6 +15,15 @@
 		1336DD4B1C921E7D0053CB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1336DD491C921E7D0053CB23 /* LaunchScreen.storyboard */; };
 		1336DD561C921E7E0053CB23 /* Big_Screen_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1336DD551C921E7E0053CB23 /* Big_Screen_AppTests.m */; };
 		1336DD611C921E7E0053CB23 /* Big_Screen_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1336DD601C921E7E0053CB23 /* Big_Screen_AppUITests.m */; };
+		1345AEA41C938041006494BA /* StandingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1345AEA31C938041006494BA /* StandingsCell.xib */; };
+		13C068621C922637009102DF /* ParseOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C068611C922637009102DF /* ParseOps.m */; };
+		13E36C361C947FB0007C48DD /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E36C311C947FB0007C48DD /* Match.m */; };
+		13E36C371C947FB0007C48DD /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E36C331C947FB0007C48DD /* Round.m */; };
+		13E36C381C947FB0007C48DD /* StandingsTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E36C351C947FB0007C48DD /* StandingsTeam.m */; };
+		13E36C3E1C9482C4007C48DD /* StandingsCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E36C3D1C9482C4007C48DD /* StandingsCellController.m */; };
+		13E36C401C949250007C48DD /* RoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E36C3F1C949250007C48DD /* RoundView.xib */; };
+		13E36C461C94B565007C48DD /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E36C451C94B565007C48DD /* RoundViewController.m */; };
+		1B4D530C5A7FDE7FC88E384B /* Pods_Big_Screen_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A934C6A1FA68ECFD7769A70 /* Pods_Big_Screen_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,23 @@
 		1336DD5C1C921E7E0053CB23 /* Big Screen AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big Screen AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1336DD601C921E7E0053CB23 /* Big_Screen_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Big_Screen_AppUITests.m; sourceTree = "<group>"; };
 		1336DD621C921E7E0053CB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1345AEA31C938041006494BA /* StandingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StandingsCell.xib; sourceTree = "<group>"; };
+		13C068601C922637009102DF /* ParseOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseOps.h; sourceTree = "<group>"; };
+		13C068611C922637009102DF /* ParseOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseOps.m; sourceTree = "<group>"; };
+		13E36C301C947FB0007C48DD /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		13E36C311C947FB0007C48DD /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		13E36C321C947FB0007C48DD /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		13E36C331C947FB0007C48DD /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		13E36C341C947FB0007C48DD /* StandingsTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsTeam.h; sourceTree = "<group>"; };
+		13E36C351C947FB0007C48DD /* StandingsTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsTeam.m; sourceTree = "<group>"; };
+		13E36C3C1C9482C4007C48DD /* StandingsCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsCellController.h; sourceTree = "<group>"; };
+		13E36C3D1C9482C4007C48DD /* StandingsCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsCellController.m; sourceTree = "<group>"; };
+		13E36C3F1C949250007C48DD /* RoundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundView.xib; sourceTree = "<group>"; };
+		13E36C441C94B565007C48DD /* RoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundViewController.h; sourceTree = "<group>"; };
+		13E36C451C94B565007C48DD /* RoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundViewController.m; sourceTree = "<group>"; };
+		4A934C6A1FA68ECFD7769A70 /* Pods_Big_Screen_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Big_Screen_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6767DC97DB08F8A0EEDD212D /* Pods-Big Screen App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Screen App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Big Screen App/Pods-Big Screen App.debug.xcconfig"; sourceTree = "<group>"; };
+		CA264F0A6116A3A70879927A /* Pods-Big Screen App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Screen App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big Screen App/Pods-Big Screen App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4D530C5A7FDE7FC88E384B /* Pods_Big_Screen_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,8 @@
 				1336DD541C921E7E0053CB23 /* Big Screen AppTests */,
 				1336DD5F1C921E7E0053CB23 /* Big Screen AppUITests */,
 				1336DD391C921E7D0053CB23 /* Products */,
+				DD25E24DC32583A018992E93 /* Pods */,
+				4A521568FF02340353A1E7DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,14 @@
 		1336DD3A1C921E7D0053CB23 /* Big Screen App */ = {
 			isa = PBXGroup;
 			children = (
+				13E36C301C947FB0007C48DD /* Match.h */,
+				13E36C311C947FB0007C48DD /* Match.m */,
+				13E36C321C947FB0007C48DD /* Round.h */,
+				13E36C341C947FB0007C48DD /* StandingsTeam.h */,
+				13E36C331C947FB0007C48DD /* Round.m */,
+				13E36C351C947FB0007C48DD /* StandingsTeam.m */,
+				13C068601C922637009102DF /* ParseOps.h */,
+				13C068611C922637009102DF /* ParseOps.m */,
 				1336DD3E1C921E7D0053CB23 /* AppDelegate.h */,
 				1336DD3F1C921E7D0053CB23 /* AppDelegate.m */,
 				1336DD411C921E7D0053CB23 /* ViewController.h */,
@@ -117,7 +154,13 @@
 		1336DD3B1C921E7D0053CB23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1345AEA31C938041006494BA /* StandingsCell.xib */,
 				1336DD3C1C921E7D0053CB23 /* main.m */,
+				13E36C3C1C9482C4007C48DD /* StandingsCellController.h */,
+				13E36C3D1C9482C4007C48DD /* StandingsCellController.m */,
+				13E36C3F1C949250007C48DD /* RoundView.xib */,
+				13E36C441C94B565007C48DD /* RoundViewController.h */,
+				13E36C451C94B565007C48DD /* RoundViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +183,23 @@
 			path = "Big Screen AppUITests";
 			sourceTree = "<group>";
 		};
+		4A521568FF02340353A1E7DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A934C6A1FA68ECFD7769A70 /* Pods_Big_Screen_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD25E24DC32583A018992E93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6767DC97DB08F8A0EEDD212D /* Pods-Big Screen App.debug.xcconfig */,
+				CA264F0A6116A3A70879927A /* Pods-Big Screen App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1336DD651C921E7E0053CB23 /* Build configuration list for PBXNativeTarget "Big Screen App" */;
 			buildPhases = (
+				97031163E7881CC984F95E12 /* Check Pods Manifest.lock */,
 				1336DD341C921E7D0053CB23 /* Sources */,
 				1336DD351C921E7D0053CB23 /* Frameworks */,
 				1336DD361C921E7D0053CB23 /* Resources */,
+				1F0453092D89AE828A28FC22 /* Embed Pods Frameworks */,
+				A36DAE794C181D9196A6551C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +270,7 @@
 				TargetAttributes = {
 					1336DD371C921E7D0053CB23 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9DQ6SL245T;
 					};
 					1336DD501C921E7E0053CB23 = {
 						CreatedOnToolsVersion = 7.2;
@@ -244,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1336DD4B1C921E7D0053CB23 /* LaunchScreen.storyboard in Resources */,
+				1345AEA41C938041006494BA /* StandingsCell.xib in Resources */,
+				13E36C401C949250007C48DD /* RoundView.xib in Resources */,
 				1336DD481C921E7D0053CB23 /* Assets.xcassets in Resources */,
 				1336DD461C921E7D0053CB23 /* Main.storyboard in Resources */,
 			);
@@ -265,13 +331,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F0453092D89AE828A28FC22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Screen App/Pods-Big Screen App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97031163E7881CC984F95E12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A36DAE794C181D9196A6551C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Screen App/Pods-Big Screen App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1336DD341C921E7D0053CB23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E36C381C947FB0007C48DD /* StandingsTeam.m in Sources */,
+				13E36C371C947FB0007C48DD /* Round.m in Sources */,
 				1336DD431C921E7D0053CB23 /* ViewController.m in Sources */,
 				1336DD401C921E7D0053CB23 /* AppDelegate.m in Sources */,
+				13E36C3E1C9482C4007C48DD /* StandingsCellController.m in Sources */,
+				13C068621C922637009102DF /* ParseOps.m in Sources */,
+				13E36C461C94B565007C48DD /* RoundViewController.m in Sources */,
+				13E36C361C947FB0007C48DD /* Match.m in Sources */,
 				1336DD3D1C921E7D0053CB23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,23 +531,31 @@
 		};
 		1336DD661C921E7E0053CB23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6767DC97DB08F8A0EEDD212D /* Pods-Big Screen App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Big Screen App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Solstice-Mobile.Big-Screen-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		1336DD671C921E7E0053CB23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA264F0A6116A3A70879927A /* Pods-Big Screen App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Big Screen App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Solstice-Mobile.Big-Screen-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +626,7 @@
 				1336DD671C921E7E0053CB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1336DD681C921E7E0053CB23 /* Build configuration list for PBXNativeTarget "Big Screen AppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +635,7 @@
 				1336DD6A1C921E7E0053CB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1336DD6B1C921E7E0053CB23 /* Build configuration list for PBXNativeTarget "Big Screen AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +644,7 @@
 				1336DD6D1C921E7E0053CB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

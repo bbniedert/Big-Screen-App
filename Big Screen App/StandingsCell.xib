@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StandingsCellController">
+            <rect key="frame" x="0.0" y="0.0" width="256" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34w-g9-iGc">
+                    <rect key="frame" x="8" y="8" width="32" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="abx-uk-XoO"/>
+                        <constraint firstAttribute="width" constant="32" id="xz8-XT-CWX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrQ-di-g2Y">
+                    <rect key="frame" x="48" y="8" width="144" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="144" id="eIB-qd-7uI"/>
+                        <constraint firstAttribute="height" constant="41" id="eix-HG-Sgg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="34"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8n3-sO-178">
+                    <rect key="frame" x="237" y="28" width="11" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="DBD-Yf-QHl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0-0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reX-WG-Ot1">
+                    <rect key="frame" x="200" y="8" width="48" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="8Ks-Kc-itp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="reX-WG-Ot1" firstAttribute="leading" secondItem="wrQ-di-g2Y" secondAttribute="trailing" constant="27" id="8Ix-7c-p5D"/>
+                <constraint firstItem="reX-WG-Ot1" firstAttribute="leading" secondItem="wrQ-di-g2Y" secondAttribute="trailing" constant="8" id="8kb-eD-AH6"/>
+                <constraint firstAttribute="trailing" secondItem="8n3-sO-178" secondAttribute="trailing" constant="8" id="DqN-V3-QUD"/>
+                <constraint firstItem="reX-WG-Ot1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="Nsk-Oc-Ghh"/>
+                <constraint firstItem="8n3-sO-178" firstAttribute="top" secondItem="reX-WG-Ot1" secondAttribute="bottom" constant="-1" id="c0G-X6-hla"/>
+                <constraint firstAttribute="trailing" secondItem="reX-WG-Ot1" secondAttribute="trailing" constant="8" id="dXa-Dj-PN5"/>
+                <constraint firstItem="34w-g9-iGc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="e8c-HJ-zFZ"/>
+                <constraint firstItem="wrQ-di-g2Y" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jc7-wW-kAO"/>
+                <constraint firstItem="34w-g9-iGc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="nR6-SA-suT"/>
+                <constraint firstItem="wrQ-di-g2Y" firstAttribute="leading" secondItem="34w-g9-iGc" secondAttribute="trailing" constant="8" id="znG-I8-AZQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="8Ix-7c-p5D"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="cupDifferential" destination="8n3-sO-178" id="cMz-gV-6UT"/>
+                <outlet property="rank" destination="34w-g9-iGc" id="wpe-Bq-Ril"/>
+                <outlet property="record" destination="reX-WG-Ot1" id="diS-IN-YNa"/>
+                <outlet property="team" destination="wrQ-di-g2Y" id="GOE-44-dVV"/>
+            </connections>
+        </view>
+    </objects>
+</document>

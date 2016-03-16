@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A5AC7432B2E225A215EFBDCCFAEC6BC21881D829",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A5AC7432B2E225A215EFBDCCFAEC6BC21881D829" : 0,
+    "C3B3DA41A851E4FBF0051D6431CE3E6CA894412A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7BEAF9C1-12A2-49DF-B705-27F61F645CEA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A5AC7432B2E225A215EFBDCCFAEC6BC21881D829" : "Big%20Screen%20App\/",
+    "C3B3DA41A851E4FBF0051D6431CE3E6CA894412A" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Big Screen App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Big Screen App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bbniedert\/Big-Screen-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5AC7432B2E225A215EFBDCCFAEC6BC21881D829"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bbniedert\/Big-Screen-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3B3DA41A851E4FBF0051D6431CE3E6CA894412A"
+    }
+  ]
+}

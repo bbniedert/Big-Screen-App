@@ -1,0 +1,6 @@
+framework module Pods_Big_Screen_App {
+  umbrella header "Pods-Big Screen App-umbrella.h"
+
+  export *
+  module * { export * }
+}
