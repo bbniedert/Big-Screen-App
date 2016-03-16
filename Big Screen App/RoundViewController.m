@@ -13,6 +13,8 @@
 
 @interface RoundViewController ()
 
+@property (assign) int numCompletedMatches;
+
 @end
 
 @implementation RoundViewController 
@@ -41,6 +43,8 @@
     [self addSubview:self.view];
     
     [self setMatchesUp];
+    
+    self.numCompletedMatches = 0;
     
     [NSTimer scheduledTimerWithTimeInterval:30
                                      target:self
@@ -129,6 +133,7 @@
         cd.text = @"VS";
         return;
     }
+    self.numCompletedMatches++;
     cd.text = (match.cupDifferential == 1) ? [NSString stringWithFormat:@"%ld\ncup",(long)match.cupDifferential] : [NSString stringWithFormat:@"%ld\ncups",(long)match.cupDifferential];
     if (match.winner == 1){
         team1.text = [NSString stringWithFormat:@"%@ ◄", match.team1];
@@ -139,6 +144,9 @@
         team2.text = [NSString stringWithFormat:@"► %@", match.team2];
         team2.textColor = [UIColor blackColor];
         team1.textColor = [UIColor grayColor];
+    }
+    if (self.numCompletedMatches >= 6){
+        self.view.backgroundColor = [UIColor colorWithRed:255 green:255 blue:255 alpha:.5];
     }
 }
 

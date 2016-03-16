@@ -21,9 +21,9 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8n3-sO-178">
-                    <rect key="frame" x="220" y="28" width="28" height="21"/>
+                    <rect key="frame" x="200" y="28" width="48" height="21"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="28" id="G3W-5U-fgv"/>
+                        <constraint firstAttribute="width" constant="48" id="G3W-5U-fgv"/>
                         <constraint firstAttribute="height" constant="21" id="auL-ZX-AkV"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
