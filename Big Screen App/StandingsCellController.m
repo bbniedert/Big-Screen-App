@@ -21,6 +21,9 @@
     self.cupDifferential.textColor = color;
     self.team.adjustsFontSizeToFitWidth = YES;
     self.teamLogo.image = [UIImage imageNamed:[team lowercaseString]];
+    if (self.teamLogo.image){
+        self.teamLogo.backgroundColor = [UIColor clearColor];
+    }
     
 }
 @end
